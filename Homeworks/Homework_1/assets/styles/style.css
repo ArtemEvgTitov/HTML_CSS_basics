@@ -1,0 +1,32 @@
+h1 {
+    color: darkmagenta
+}
+
+h2 {
+    color: crimson
+}
+
+h3 {
+    color: darkgreen
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;
+    font-size: 24px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.textbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
