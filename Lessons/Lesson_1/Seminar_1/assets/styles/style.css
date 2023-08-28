@@ -1,0 +1,22 @@
+h2 {
+    color: green;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;
+    font-size: 24px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+}
