@@ -1,13 +1,16 @@
-h1 {
-    color: darkmagenta
+.h1-theme {
+    color: #222222;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
 }
 
-h2 {
-    color: crimson
-}
-
-h3 {
-    color: darkgreen
+.h2-theme {
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
 }
 
 .nav {
@@ -18,15 +21,62 @@ h3 {
     font-size: 24px;
 }
 
+.nav-item {
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.nav-item:hover {
+    color: darkgreen;
+}
+
+a {
+    text-decoration: none;
+}
+
+.paragraph-theme {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+}
+
+.image-theme {
+    border-radius: 30px;
+    border: 5px solid lemonchiffon;
+}
+
+.image-theme:hover {
+    border: 5px solid chocolate;
+}
+
 .box {
     display: flex;
     align-items: center;
     gap: 30px;
     margin-bottom: 20px;
+    border-radius: 30px;
+    background-color: lemonchiffon;
 }
 
 .textbox {
     display: flex;
     flex-direction: column;
-    align-items: center
+    align-items: center;
+    margin: auto auto;
+    width: 500;
+}
+
+.button-theme {
+    width: 100px;
+    height: 50px;
+    font-size: 16px;
+    background-color: burlywood;
+    border-radius: 5px;
+}
+
+.button-theme:hover {
+    background-color: chocolate;
 }
