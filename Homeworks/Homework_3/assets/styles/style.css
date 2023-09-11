@@ -24,24 +24,28 @@ body {
     width: 1170px;
     height: 40px;
     display: flex;
-    gap: 500px;
+    align-items: center;
+    /* gap: 500px; */
+    justify-content: space-between;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 40px;
 }
 
 .menu_logo_div {
     display: flex;
+    align-items: center;
     gap: 14px;
 }
 
 .logo {
-    margin-top: 40px;
+    /* margin-top: 40px; */
     width: 35px;
     height: 40px;
 }
 
 .name_company {
-    margin-top: 45px;
+    /* margin-top: 45px; */
     color: #000;
     font-family: Gilroy-Bold;
     font-size: 24px;
@@ -53,27 +57,27 @@ body {
 }
 
 .menu {
-    color: #000;
-    width: 533px;
-    height: 17px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin-top: 51px;
     font-family: Gilroy-Medium;
     font-size: 14px;
     font-weight: 400;
+    gap: 20px;
 }
 
 .menu_home {
     color: #F25822;
 }
 
+.menu_button {
+    color: #000;
+}
+
 .intro {
     margin-top: 160px;
     display: flex;
     gap: 40.94px;
-    width: 1146px;
+    width: 1170px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 89px;
@@ -124,9 +128,9 @@ body {
 }
 
 .cards {
-    width: 1200px;
-    gap: 48px;
-    flex-shrink: 0;
+    width: 1170px;
+    /* gap: 48px; уже встанет как надо без этого свойства*/
+    /* flex-shrink: 0; */
     margin-left: auto;
     margin-right: auto;
     display: flex;
