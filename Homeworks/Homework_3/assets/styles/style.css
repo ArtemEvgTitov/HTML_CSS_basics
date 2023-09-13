@@ -130,7 +130,6 @@ body {
 .cards {
     width: 1170px;
     /* gap: 48px; уже встанет как надо без этого свойства*/
-    /* flex-shrink: 0; */
     margin-left: auto;
     margin-right: auto;
     display: flex;
