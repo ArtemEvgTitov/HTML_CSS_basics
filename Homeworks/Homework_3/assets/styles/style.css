@@ -39,13 +39,11 @@ body {
 }
 
 .logo {
-    /* margin-top: 40px; */
     width: 35px;
     height: 40px;
 }
 
 .name_company {
-    /* margin-top: 45px; */
     color: #000;
     font-family: Gilroy-Bold;
     font-size: 24px;
