@@ -1,0 +1,174 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-SemiBold.ttf");
+    font-style: normal;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-Bold.ttf");
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-ExtraBold.ttf");
+    font-style: normal;
+    font-weight: 800;
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #020A18;
+}
+
+h1 {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #020b1b;
+    column-gap: 40px;
+}
+
+.header-item {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 16px;
+    line-height: normal;
+    font-weight: 600;
+}
+
+.intro {
+    margin-top: 160px;
+    display: flex;
+    gap: 128px;
+}
+
+.center {
+    width: 1146px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intro-upper-title {
+    color: #3A68B8;
+    font-size: 18px;
+    /* font-style: normal; */
+    font-weight: 600;
+    line-height: 160%;
+    text-transform: uppercase;
+}
+
+.intro-title {
+    color: #FFF;
+    font-size: 55px;
+    font-weight: 800;
+    line-height: 130%;
+    margin-top: 10px;
+}
+
+.intro-description {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 160%;
+    opacity: 0.7;
+    margin-top: 40px;
+    width: 558px;
+}
+
+.intro-button-wrapper {
+    margin-top: 50px;
+    gap: 20px;
+    display: flex;
+}
+
+.intro-button {
+    font-family: "Open Sans", sans-serif;
+    padding: 15px 30px;
+    border-radius: 5px;
+    background: #3A68B8;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.button-withIcon {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 197px;
+}
+
+.imageText {
+    margin-top: 157px;
+    display: flex;
+    justify-content: center;
+    gap: 68px;
+}
+
+.leftText {
+    align-self: center;
+    color: white;
+}
+
+.titleText {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+}
+
+.descText {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    /* 25.6px */
+    opacity: 0.7;
+    margin-top: 30px;
+}
+
+.buttonWrapperText {
+    margin-top: 50px;
+}
+
+
+/* .container {
+    display: flex;
+    margin-top: 50px;
+    color: white;
+    height: 90vh;
+} */
+
+
+/* .item {
+    padding: 30px;
+    border: 2px solid green;
+}
+.item2 {
+    align-self: center;
+} */
+
+
+/* 
+    flex: flex-grow flex-shrink flex-basis;
+    flex: 1 0 200px; 
+    flex: 1;
+    flex: 1 2;
+*/
