@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.header {
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.center {
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu_logo_div {
+    display: flex;
+    align-items: center;
+    gap: 42px;
+    margin: 18px 231px 19px;
+}
+
+.menu {
+    margin-right: 240px;
+}
+
+.intro {
+    background-color: #F1E4E6;
+    display: flex;
+    align-items: center;
+}
+
+.intro_right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-left: 64.42px;
+}
+
+.brand {
+    display: flex;
+    flex-direction: column;
+}
+
+.intro_title {
+    color: #222;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.luxer {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.fashion {
+    color: #F16D7F;
+}
