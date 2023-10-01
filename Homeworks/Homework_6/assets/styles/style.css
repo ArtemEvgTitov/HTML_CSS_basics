@@ -4,10 +4,6 @@
     text-decoration: none;
 }
 
-img {
-    max-width: 100%;
-}
-
 .header {
     background-color: #222222;
     display: flex;
@@ -55,9 +51,7 @@ img {
     color: #222;
     font-family: Lato;
     font-size: 48px;
-    font-style: normal;
     font-weight: 900;
-    line-height: normal;
 }
 
 .luxer {
@@ -67,4 +61,152 @@ img {
 
 .fashion {
     color: #F16D7F;
+}
+
+.products {
+    display: grid;
+    margin: 65px auto 0;
+}
+
+.offer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    gap: 30px;
+    margin: 0 230px 0 230px;
+}
+
+.for_women {
+    display: grid;
+    justify-items: center;
+    position: relative;
+}
+
+.for_man {
+    display: grid;
+    justify-items: center;
+    position: relative;
+}
+
+.for_kids {
+    display: grid;
+    justify-items: center;
+    position: relative;
+}
+
+.accesories {
+    display: grid;
+    justify-items: center;
+    position: relative;
+}
+
+.shading {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.text {
+    display: grid;
+    justify-items: center;
+    color: #FFFFFF;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    position: absolute;
+    margin: 105px auto;
+}
+
+.text_accesories {
+    margin: 65px auto;
+}
+
+.for_you {
+    color: #F16D7F;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.accesories {
+    grid-column: span 3;
+}
+
+.more_products {
+    display: grid;
+    justify-items: center;
+}
+
+.fetured {
+    display: grid;
+    justify-items: center;
+    margin-top: 96px;
+}
+
+h3 {
+    color: #222;
+    font-family: Lato;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+h4 {
+    color: #9F9F9F;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.six_products {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    gap: 30px;
+    margin: 48px 230px 0 230px;
+}
+
+.product {
+    background-color: #F8F8F8;
+    ;
+}
+
+.name_price {
+    padding: 24px 16px;
+}
+
+.name_product {
+    color: #000;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.description {
+    color: #5D5D5D;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 16px;
+}
+
+.price {
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 16px;
+}
+
+.button_all_products {
+    background-color: #FFFFFF;
+    color: #F26376;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    border: #FF6A6A solid 1px;
+    margin: 48px auto 60px;
+    padding: 15px 39px 14px;
 }
