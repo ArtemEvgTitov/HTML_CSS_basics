@@ -32,6 +32,8 @@
         }
         
         .menu {
+            display: flex;
+            gap: 41px;
             margin-right: 240px;
         }
         
@@ -221,7 +223,7 @@
                 margin: 18px 32px;
             }
             .menu {
-                gap: 41px;
+                gap: 25px;
                 margin: 18px 32px;
             }
             .intro-container {
@@ -255,6 +257,71 @@
                 grid-template-columns: repeat(2, 1fr);
                 gap: 16px;
                 margin: 72.74px 16px 0;
+            }
+            .product {
+                display: grid;
+                justify-items: center;
+            }
+        }
+        
+        @media (min-width: 320px) and (max-width: 767px) {
+            .menu_logo_div {
+                gap: 41px;
+                margin: 18px 16px;
+            }
+            .menu {
+                margin: 25px 16px;
+            }
+            .image_user {
+                display: none;
+            }
+            .image_basket {
+                display: none;
+            }
+            .intro-container {
+                justify-content: center;
+            }
+            .intro_left {
+                display: none;
+            }
+            .intro_right {
+                gap: 15px;
+                margin: 148px 56px;
+            }
+            .intro_right_image {
+                width: 12px;
+                height: 61px;
+            }
+            .intro_title {
+                font-size: 38px;
+            }
+            .luxer {
+                font-size: 20px;
+            }
+            .products {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 32px;
+                margin: 64px auto 0;
+                justify-content: center;
+            }
+            .mobile_acces {
+                content: url("../images/mobile_accesories.png");
+            }
+            .mobile_shading_acces {
+                content: url("../images/rect_mobile_acces.png");
+            }
+            .text_accesories {
+                margin: 30px auto;
+            }
+            .fetured {
+                margin: 64px 14px 0 25px;
+            }
+            .six_products {
+                gap: 16.61px;
+                display: flex;
+                flex-wrap: wrap;
+                margin: 64px 8px 0;
             }
             .product {
                 display: grid;
