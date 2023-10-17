@@ -213,8 +213,118 @@
             font-size: 16px;
             font-weight: 400;
             border: #FF6A6A solid 1px;
-            margin: 48px auto 60px;
+            margin: 48px auto 95px;
             padding: 15px 39px 14px;
+        }
+        
+        .feature {
+            background-color: #222224;
+            padding: 104px 230px;
+        }
+        
+        .feature-container {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+        
+        .feature-offer {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .feature-intro {
+            color: #FBFBFB;
+            font-family: Lato;
+            font-size: 19.96px;
+            font-weight: 400;
+        }
+        
+        .feature-text {
+            color: #FBFBFB;
+            text-align: center;
+            font-family: Lato;
+            font-size: 13.972px;
+            font-weight: 300;
+            margin-top: 16px;
+        }
+        
+        .free-delivery {
+            margin-top: 28.07px;
+        }
+        
+        .sales-discounts {
+            margin-top: 19.07px;
+        }
+        
+        .quality-assurance {
+            margin-top: 25.06px;
+        }
+        
+        .feedback_subscribe_container {
+            display: grid;
+            align-items: center;
+            justify-items: center;
+        }
+        
+        .background_subscribe_image {
+            position: relative;
+        }
+        
+        .background_subscribe_shadow {
+            position: absolute;
+        }
+        
+        .feedback_subscribe {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            position: absolute;
+        }
+        
+        .feedback {
+            display: grid;
+            justify-items: center;
+            gap: 30px;
+        }
+        
+        .feedback_text {
+            color: #222224;
+            text-align: center;
+            font-family: Lato;
+            font-size: 20px;
+            font-weight: 400;
+        }
+        
+        .pulvinar {
+            font-style: italic;
+        }
+        
+        .subscribe {
+            display: grid;
+            align-items: center;
+            justify-items: center;
+            gap: 30px;
+        }
+        
+        .subscribe_text {
+            display: grid;
+            justify-items: center;
+            color: #222224;
+            text-align: center;
+            font-family: Lato;
+            font-size: 24px;
+            font-weight: 700;
+        }
+        
+        .subsribe_span {
+            font-size: 18px;
+            font-weight: 400;
+        }
+        
+        .subscribe_box {
+            display: flex;
         }
         
         @media (min-width: 768px) and (max-width: 1024px) {
