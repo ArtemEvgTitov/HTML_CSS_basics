@@ -286,7 +286,14 @@
         .feedback {
             display: grid;
             justify-items: center;
+            margin: 97px 230px 126px;
+        }
+        
+        .feedback_block {
+            display: grid;
+            justify-items: center;
             gap: 30px;
+            max-width: 359px;
         }
         
         .feedback_text {
@@ -305,6 +312,10 @@
             display: grid;
             align-items: center;
             justify-items: center;
+        }
+        
+        .subscribe_block {
+            display: grid;
             gap: 30px;
         }
         
@@ -316,6 +327,7 @@
             font-family: Lato;
             font-size: 24px;
             font-weight: 700;
+            line-height: 167.2%;
         }
         
         .subsribe_span {
@@ -325,6 +337,39 @@
         
         .subscribe_box {
             display: flex;
+            align-items: center;
+            position: relative;
+        }
+        
+        .email {
+            display: flex;
+            align-items: center;
+        }
+        
+        .email_text {
+            display: flex;
+            position: absolute;
+            color: #222224;
+            font-family: Lato;
+            font-size: 14px;
+            font-weight: 400;
+            margin-left: 22px;
+        }
+        
+        .button_email {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .subscribe_button_text {
+            display: flex;
+            position: absolute;
+            color: #FFF;
+            text-align: center;
+            font-family: Lato;
+            font-size: 14px;
+            font-weight: 400;
         }
         
         @media (min-width: 768px) and (max-width: 1024px) {
