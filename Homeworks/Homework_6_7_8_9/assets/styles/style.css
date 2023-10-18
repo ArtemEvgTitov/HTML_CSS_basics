@@ -372,6 +372,31 @@
             font-weight: 400;
         }
         
+        .footer {
+            background-color: #222224;
+        }
+        
+        .footer-contanier {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+        
+        .brand {
+            color: #FBFBFB;
+            font-family: Lato;
+            font-size: 16px;
+            font-weight: 400;
+            margin: 30px 235px;
+        }
+        
+        .social_network {
+            display: flex;
+            gap: 7.29px;
+            align-items: center;
+            justify-content: flex-end;
+            margin-right: 230.34px;
+        }
+        
         @media (min-width: 768px) and (max-width: 1024px) {
             .menu_logo_div {
                 gap: 41px;
