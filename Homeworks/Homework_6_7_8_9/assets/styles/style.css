@@ -646,8 +646,8 @@ h4 {
         margin: 72.74px 16px 0;
     }
     .product {
-        display: grid;
-        justify-items: center;
+        display: flex;
+        flex-direction: column;
     }
     .feature {
         padding: 64px 204px;
