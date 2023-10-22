@@ -109,7 +109,7 @@ img {
 }
 
 .menu_buttons:hover .menu_list {
-    display: inline;
+    opacity: 1;
 }
 
 .menu_list {
@@ -124,8 +124,8 @@ img {
     font-family: Lato;
     font-size: 14px;
     font-weight: 700;
-    display: none;
     transition-duration: .3s;
+    opacity: 0;
 }
 
 .menu_gender {
@@ -151,6 +151,7 @@ img {
 
 .basket {
     display: grid;
+    position: relative;
 }
 
 .image_basket {
@@ -161,8 +162,6 @@ img {
     position: absolute;
     top: 0;
     right: 0;
-    margin-top: 18px;
-    margin-right: 231px;
     animation: heartbeat 2s 5;
 }
 
@@ -249,6 +248,10 @@ img {
     display: grid;
     justify-items: center;
     position: relative;
+}
+
+.offer_image {
+    object-fit: cover
 }
 
 .shading {
@@ -448,30 +451,27 @@ h4 {
     margin-top: 25.06px;
 }
 
+.feedback_subscribe_section {
+    background-image: url("../images/photo_subscribe.jpg");
+    background-size: cover;
+}
+
 .feedback_subscribe_container {
     display: grid;
     align-items: center;
     justify-items: center;
 }
 
-.background_subscribe_image {
-    position: relative;
-}
-
-.background_subscribe_shadow {
-    position: absolute;
-}
-
 .feedback_subscribe {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    position: absolute;
+    display: flex;
+    gap: 223px;
 }
 
 .feedback {
     display: grid;
     justify-items: center;
-    margin: 97px 230px 126px;
+    margin-top: 97px;
+    margin-bottom: 126px;
 }
 
 .feedback_block {
@@ -657,11 +657,8 @@ h4 {
         flex-direction: column;
         justify-content: space-between;
     }
-    .background_subscribe_image {
-        content: url("../images/background_subscribe_image_768p.png")
-    }
-    .background_subscribe_shadow {
-        content: url("../images/background_subscribe_shadow_768p.png");
+    .feedback_subscribe_section {
+        background-image: url("../images/photo_subscribe768.png");
     }
     .feedback_subscribe_container {
         display: flex;
@@ -673,6 +670,9 @@ h4 {
     .feedback {
         margin: 64px 204px 48px;
     }
+    .subscribe {
+        margin-bottom: 140px;
+    }
     .brand_footer {
         margin: 30px 32px;
     }
@@ -681,7 +681,7 @@ h4 {
     }
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 768px) {
     .menu_logo_div {
         gap: 41px;
         margin: 18px 16px;
@@ -721,10 +721,9 @@ h4 {
     }
     .products {
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
         gap: 32px;
-        margin: 64px auto 0;
-        justify-content: center;
     }
     .mobile_acces {
         content: url("../images/mobile_accesories.png");
@@ -741,12 +740,12 @@ h4 {
     .six_products {
         gap: 16.61px;
         display: flex;
-        flex-wrap: wrap;
-        margin: 64px 8px 0;
+        margin-top: 64px;
+        flex-direction: column;
     }
     .product {
-        display: grid;
-        justify-items: center;
+        display: flex;
+        flex-direction: column;
     }
     .product_choice {
         right: auto;
@@ -762,11 +761,8 @@ h4 {
         flex-direction: column;
         justify-content: space-between;
     }
-    .background_subscribe_image {
-        content: url("../images/background_subscribe_image_320p.png")
-    }
-    .background_subscribe_shadow {
-        content: url("../images/background_subscribe_shadow_320p.png");
+    .feedback_subscribe_section {
+        background-image: url("../images/photo_subscribe768.png");
     }
     .feedback_subscribe_container {
         display: flex;
@@ -780,6 +776,9 @@ h4 {
     }
     .feedback_text {
         font-size: 18px;
+    }
+    .subscribe {
+        margin-bottom: 110px;
     }
     .subsribe_span {
         font-size: 14px;
