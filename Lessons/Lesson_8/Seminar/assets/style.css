@@ -1,0 +1,102 @@
+.slider {
+    height: 600px
+}
+.slider-icon-prev {
+    background-image: url(https://png.pngtree.com/png-vector/20220620/ourmid/pngtree-arrow-shape-red-simple-guide-png-image_5215861.png) !important;
+    transform: rotate(180deg);
+}
+.slider-icon-next {
+    background-image: url(https://png.pngtree.com/png-vector/20220620/ourmid/pngtree-arrow-shape-red-simple-guide-png-image_5215861.png) !important;
+}
+.subscribe {
+    background-image: url(./images/photo_subscribe.png);
+    background-size: cover;
+    height: 448px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+.center {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.subscribe-container {
+    display: flex;
+    gap: 224px;
+}
+.subscribe-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    flex: 1;
+    width: 359.449px;
+}
+.subscribe-right {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 32px;
+    flex: 1;
+}
+.subscribe__text {
+    color: #222224;
+    text-align: center;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+}
+.subscribe__title {
+    color: #222224;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 167.2%;
+}
+.subscribe__desc {
+    color: #222224;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 167.2%;
+}
+.subscribe-form {
+    display: flex;
+    height: 49px;
+}
+.subscribe__input {
+    border: none;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    padding: 7px 64px 6px 22px;
+    background-color: #E1E1E1;
+    color: #222224;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.subscribe__button {
+    border: none;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: #F16D7F;
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 7px 7px 6px 8px;
+    width: 100px;
+}
+/* height: 693px; для адаптива 
+.subscribe-container flex-column и subscribe задать justify-content: center */
