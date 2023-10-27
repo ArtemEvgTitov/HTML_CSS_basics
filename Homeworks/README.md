@@ -38,9 +38,9 @@ https://www.freepik.com/search?format=search&orientation=portrait&query=products
 
 19.  На странице “Каталог” после заголовка h1 и параграфа p добавить
 
-    * Изображение товара
-    * Название товара
-    * Описание товара
+     * Изображение товара
+     * Название товара
+     * Описание товара
 
 20.  Добавить 3 таких товара на страницу каталога (не следует добавлять более 3-х товаров)
 ---
@@ -57,9 +57,11 @@ https://www.freepik.com/search?format=search&orientation=portrait&query=products
 
 4. Задать стиль
 
-a {
-text-decoration: none;
-}
+        a {
+
+        text-decoration: none;
+
+        }
 
 
 5. Проверить работу стилей на всех страницах.
@@ -67,35 +69,35 @@ text-decoration: none;
 6. Разделить экран на 2 части, сделать так чтобы файл стилей располагался справа, а все html-файлы были слева.
 
 7. Для всех ссылок меню задать класс (придумать логичное название класса)
-* color: cornflowerblue;
-* font-size: 16px;
-* line-height: 20px;
+   * color: cornflowerblue;
+   * font-size: 16px;
+   * line-height: 20px;
 
 8. Проверить отображения стилей на всех страницах проекта.
 
 9. Для всех заголовков h1 на сайте задать класс и к нему стиль
-* color: #222222;
-* font-size: 28px;
-* line-height: 36px;
-* font-weight: bold;
+   * color: #222222;
+   * font-size: 28px;
+   * line-height: 36px;
+   * font-weight: bold;
 
 10. Для всех параграфов в проекте задать класс.
 
 11. К данному классу задать стили:
-* font-style: normal;
-* font-weight: 300;
-* font-size: 18px;
-* line-height: 30px;
-* color: #7D7987;
+    * font-style: normal;
+    * font-weight: 300;
+    * font-size: 18px;
+    * line-height: 30px;
+    * color: #7D7987;
 
 12. Для заголовков h2 задать класс.
 
 13. К данному классу указать стиль:
-* color: coral;
-* font-style: normal;
-* font-weight: 700;
-* font-size: 36px;
-* line-height: 80px;
+    * color: coral;
+    * font-style: normal;
+    * font-weight: 700;
+    * font-size: 36px;
+    * line-height: 80px;
 ---
 
 ### Урок 6. Семинар. Работа с макетом и cоздание блочной структуры
@@ -127,7 +129,7 @@ text-decoration: none;
 
 2. Расставить все элементы в соответствии с макетом.
 
-* Макет с доп. блоками
+   * Макет с доп. блоками
   
 Выполнить только первые три карточки!
 https://www.figma.com/file/mnLY69cYE5cqWM5w6n5hXx/Seo-%26-Digital-Marketing-Landing-Page?node-id=35632%3A87&mode=dev
@@ -157,16 +159,16 @@ https://www.figma.com/file/mnLY69cYE5cqWM5w6n5hXx/Seo-%26-Digital-Marketing-Land
 Мы уже отлично умеем работать с макетом, в этом и есть основная задача верстальщика
 
 1. Создать новую папку, в ней сделать заготовку:
-* index.html
-* style.css
-* img
+   * index.html
+   * style.css
+   * img
 
 2. Полностью реализовать вёрстку проекта:
-* Добавить весь контент из макета.
-* Ко всем элементам контента добавить классы.
-* Добавить стили для всего контента сайта.
-* Расставить элементы в соответствии с макетом.
-* Адаптив создавать не нужно.
+   * Добавить весь контент из макета.
+   * Ко всем элементам контента добавить классы.
+   * Добавить стили для всего контента сайта.
+   * Расставить элементы в соответствии с макетом.
+   * Адаптив создавать не нужно.
 
 ### Урок 12. Семинар. Основы создания адаптивного сайта (вебинар)
 
@@ -210,4 +212,4 @@ https://www.figma.com/file/mnLY69cYE5cqWM5w6n5hXx/Seo-%26-Digital-Marketing-Land
 
 2. Проверить сайт на ошибки.
 
-3. * Разместить сайт в сети интернет.
+3. Разместить сайт в сети интернет.
