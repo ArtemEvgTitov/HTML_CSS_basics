@@ -194,7 +194,7 @@ https://www.figma.com/file/mnLY69cYE5cqWM5w6n5hXx/Seo-%26-Digital-Marketing-Land
 
 ### Урок 16. Семинар. Новые возможности CSS3. Добавление анимации
 
-Макет https://www.figma.com/file/mnLY69cYE5cqWM5w6n5hXx/Seo-%26-Digital-Marketing-Landing-Page?node-id=190%3A1194
+    https://www.figma.com/file/mnLY69cYE5cqWM5w6n5hXx/Seo-%26-Digital-Marketing-Landing-Page?node-id=190%3A1194
 
 На данном уроке нам необходимо доделать подвал, главной страницы интернет-магазина.
 
@@ -206,7 +206,7 @@ https://www.figma.com/file/mnLY69cYE5cqWM5w6n5hXx/Seo-%26-Digital-Marketing-Land
 
 ### Урок 18. Семинар. Проверка сайта на ошибки и вспомогательные инструменты (вебинар)
 
-Макет https://www.figma.com/file/mnLY69cYE5cqWM5w6n5hXx/Seo-%26-Digital-Marketing-Landing-Page?node-id=190%3A1194
+    https://www.figma.com/file/mnLY69cYE5cqWM5w6n5hXx/Seo-%26-Digital-Marketing-Landing-Page?node-id=190%3A1194
 
 1. Доделать, если что-то не получилось реализовать на прошлом уроке.
 
